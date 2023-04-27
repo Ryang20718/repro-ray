@@ -1,4 +1,3 @@
 build --sandbox_base=/dev/shm
-build:no_sandbox_tmpfs --sandbox_base=
 build --sandbox_tmpfs_path=/tmp
-build:ci --spawn_strategy=linux-sandbox
+
